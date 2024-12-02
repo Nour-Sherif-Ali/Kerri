@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="shortcut icon" href="./images/EmployeeIcon.jpg" type="image/x-icon">
+    <!-- BOOTSTRAP LINK -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navId">
+    <nav id="navId" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fs-2 fw-bold" href="#">Kerri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clients">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- Start Home Page -->
+    <header id="home" class="vh-100 d-flex justify-content-center align-items-center">
+        <div class="container text-center text-white">
+            <p class="fw-bold fs-3">Welcome</p>
+            <h1>I am <span id="element"></span></h1>
+            <p class="shrink-par mx-auto text-white-50"> It is a long established fact that a reader will be of a page
+                when established fact looking as its layout</p>
+            <button class="btn btn-outline-light py-3 px-5 rounded-pill">Upload CV</button>
+        </div>
+    </header>
+    <!-- End Home Page -->
+    <!-- start About Page -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row gy-3 align-items-center">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="./images/photoImage.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2><span class="fw-bold">About</span> Me </h2>
+                    <h3 class="my-3">Hello! I'm <span class="coloring main-text">Kerri Developer</span> </h3>
+                    <div class="mt-4 text-muted lh-lg">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus commodi qui eveniet
+                            doloremque
+                            blanditiis maxime facere, eligendi saepe quia soluta, tenetur minus sit illum esse excepturi
+                            iure, numquam deserunt explicabo dolor quos mollitia rem inventore.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eaque est quaerat in, quasi
+                            eius
+                            nisi quas fugiat dolor molestias architecto ipsum, excepturi explicabo a sunt voluptate non,
+                            rerum voluptas ducimus dolore velit! Laboriosam saepe, totam tenetur culpa voluptate
+                            consequuntur.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nisi ea, officiis amet
+                            provident
+                            eos id facere iusto ad laboriosam vitae est, ipsa labore, soluta ut quasi. Fugiat
+                            laboriosam,
+                            voluptatum voluptas quidem similique nihil quam. Iusto asperiores debitis unde sapiente ea
+                            saepe
+                            sint et quasi.
+                    </div>
+
+                    <div class="about-icons d-flex gap-4">
+                        <div><i class="fa-brands fa-facebook"></i></div>
+                        <div><i class="fa-brands fa-linkedin"></i></div>
+                        <div><i class="fa-brands fa-square-instagram"></i></div>
+                        <div><i class="fa-brands fa-twitter"></i></div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Page -->
+    <!-- Services Page -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our <span class="fw-bold ">Services</span></h2>
+                <p class="shrink-par mx-auto text-muted">It is a long established fact that a reader will be distracted
+                    by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center border p-4 rounded services-item">
+                        <div class="fa-3x  main-text"><i class="fa-solid fa-chart-line"></i></div>
+
+                        <div class="mt-4">
+                            <h5 class="fw-semibold ">Graphic Designer</h5>
+                            <div class="services-border my-3"></div>
+                            <p class="text-muted mb-0 ">There are many variations of passages of but the majority have
+                                suffered alteration in some form.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center border p-4 rounded services-item">
+                        <div class="fa-3x  main-text"><i class="fa-solid fa-mug-hot"></i></div>
+
+                        <div class="mt-4">
+                            <h5 class="fw-semibold ">Graphic Designer</h5>
+                            <div class="services-border my-3"></div>
+                            <p class="text-muted mb-0 ">There are many variations of passages of but the majority have
+                                suffered alteration in some form.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center border p-4 rounded services-item">
+                        <div class="fa-3x  main-text"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+
+                        <div class="mt-4">
+                            <h5 class="fw-semibold ">Graphic Designer</h5>
+                            <div class="services-border my-3"></div>
+                            <p class="text-muted mb-0 ">There are many variations of passages of but the majority have
+                                suffered alteration in some form.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center border p-4 rounded services-item">
+                        <div class="fa-3x  main-text"><i class="fa-solid fa-layer-group"></i></div>
+
+                        <div class="mt-4">
+                            <h5 class="fw-semibold ">Graphic Designer</h5>
+                            <div class="services-border my-3"></div>
+                            <p class="text-muted mb-0 ">There are many variations of passages of but the majority have
+                                suffered alteration in some form.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center border p-4 rounded services-item">
+                        <div class="fa-3x  main-text"><i class="fa-solid fa-palette"></i></i></div>
+
+                        <div class="mt-4">
+                            <h5 class="fw-semibold ">Graphic Designer</h5>
+                            <div class="services-border my-3"></div>
+                            <p class="text-muted mb-0 ">There are many variations of passages of but the majority have
+                                suffered alteration in some form.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="text-center border p-4 rounded services-item">
+                        <div class="fa-3x  main-text"><i class="fa-solid fa-file-pen"></i></div>
+
+                        <div class="mt-4">
+                            <h5 class="fw-semibold ">Graphic Designer</h5>
+                            <div class="services-border my-3"></div>
+                            <p class="text-muted mb-0 ">There are many variations of passages of but the majority have
+                                suffered alteration in some form.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Page -->
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-semibold">I'm available for freelancing</h2>
+            <button class="btn main-bg py-3 px-4 text-white text-uppercase fw-bold mt-4">Hire Me</button>
+        </div>
+    </section>
+
+    <!-- Start Client Page -->
+    <section id="clients" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our <span class="fw-bold ">Clients</span></h2>
+                <p class="shrink-par text-muted mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="text-center">
+                            <div class="main-text fa-2x ">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div>
+                                <img src="./images/employee.jpg" style="width: 150px;" class="rounded-circle"
+                                    alt="client 1">
+                            </div>
+                            <p class="shrink-par mx-auto text-muted mt-3 fst-italic">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo ea qui repudiandae
+                                voluptatem repellendus minima beatae expedita aut suscipit."</p>
+                            <p> ~Ebony <span class="fw-bold">Verty,</span></p>
+                        </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-item active">
+                                <div class="text-center">
+                                <div class="main-text fa-2x ">
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                                <div>
+                                    <img src="./images/employee2.jpg" style="width: 150px;" class="rounded-circle" alt="client 2">
+                                </div>
+                                <p class="shrink-par mx-auto text-muted mt-3 fst-italic">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo ea qui repudiandae
+                                    voluptatem repellendus minima beatae expedita aut suscipit."</p>
+                                <p> ~Nour <span class="fw-bold">Sherif,</span></p>
+                            </div>
+                            </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="carousel-item active">
+                            <div class="text-center">
+                            <div class="main-text fa-2x ">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div>
+                                <img src="./images/employee 3.jpg" style="width: 150px;" class="rounded-circle"
+                                    alt="client 3">
+                            </div>
+                            <p class="shrink-par mx-auto text-muted mt-3 fst-italic">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo ea qui repudiandae
+                                voluptatem repellendus minima beatae expedita aut suscipit."</p>
+                            <p> ~Nada <span class="fw-bold">Ibrahim,</span></p>
+                        </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Client Page -->
+
+    <!-- Start Portfolio Page -->
+
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our <span class="fw-bold ">Works</span></h2>
+                <p class="shrink-par text-muted mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Seo</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Web Design</button>
+                </li>
+                
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-1.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-2.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-3.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-4.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-5.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-6.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane fade active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-1.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-2.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-3.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-4.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-5.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <figure class="position-relative overflow-hidden">
+                                <img src="./images/object-6.jpg" class="w-100" alt="portfolio 1">
+                                <figcaption class="position-absolute">
+                                    <div class="work-overlay text-center">
+                                        <h4>Category</h4>
+                                        <h5>Project Title</h5>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                
+              </div>
+        </div>
+    </section>
+    <!-- End Portfolio Page -->
+
+    <!-- Start Blog Page -->
+    <section id="blog" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our <span class="fw-bold ">Blog</span></h2>
+                <p class="shrink-par text-muted mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="row gy-4 gx-md-3 gx-lg-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" >
+                        <div class="card-body">
+                        <img src="./images/blog-1.jpg" class="card-img-top p-2" alt="...">
+                        <h5 class="card-title fw-bold">There are many variations</h5>
+                        <h6 class="card-subtitle my-3 text-body-secondary">11 March 2018 <span class="main-text fw-bold">By Kerri</span></h6>
+                        <p class="card-text text-muted shrink-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores doloribus soluta accusamus nulla beatae.</p>
+                        <a href="#" class="card-link text-decoration-none fw-bold text-secondary">Read More...</a>
+                        
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" >
+                        <div class="card-body">
+                        <img src="./images/blog-2.jpg" class="card-img-top p-2" alt="...">
+                        <h5 class="card-title fw-bold">There are many variations</h5>
+                        <h6 class="card-subtitle my-3 text-body-secondary">11 March 2018 <span class="main-text fw-bold">By Kerri</span></h6>
+                        <p class="card-text text-muted shrink-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores doloribus soluta accusamus nulla beatae.</p>
+                        <a href="#" class="card-link text-decoration-none fw-bold text-secondary">Read More...</a>
+                        
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card" >
+                        <div class="card-body">
+                        <img src="./images/blog-3.jpg" class="card-img-top p-2" alt="...">
+                        <h5 class="card-title fw-bold">There are many variations</h5>
+                        <h6 class="card-subtitle my-3 text-body-secondary">11 March 2018 <span class="main-text fw-bold">By Kerri</span></h6>
+                        <p class="card-text text-muted shrink-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores doloribus soluta accusamus nulla beatae.</p>
+                        <a href="#" class="card-link text-decoration-none fw-bold text-secondary">Read More...</a>
+                        
+                        </div>
+                      </div>
+                </div>
+         
+            </div>
+        </div>
+    </section>
+    <!-- End Blog Page -->
+
+    <!-- Start Contact Page  -->
+     <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2><span class="fw-bold ">Contact</span> Us</h2>
+                <p class="shrink-par text-muted mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-4">
+                    <div class="text-center">
+                     <div>
+                        <i class="fa-solid fa-mobile-screen-button main-text"></i>
+                     </div>
+                     <h5 class="fw-bold ">Call Us On </h5>
+                     <p class="text-muted">+986 123 7856</p>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                     <div>
+                        <i class="fa-solid fa-mobile-screen-button main-text"></i>
+                     </div>
+                     <h5 class="fw-bold ">Call Us On </h5>
+                     <p class="text-muted">+986 123 7856</p>
+                    </div>
+    
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                     <div>
+                        <i class="fa-solid fa-mobile-screen-button main-text"></i>
+                     </div>
+                     <h5 class="fw-bold ">Call Us On </h5>
+                     <p class="text-muted">+986 123 7856</p>
+                    </div>   
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-6">
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" placeholder="Your Email" name="Email" id="Email" class="form-control">
+                </div>
+                <div class="col-12">
+                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Your subject">
+                </div>
+                <div class="col-12">
+                    <textarea type="text" name="message" id="message" class="form-control" placeholder="Your message"></textarea>
+                </div>
+                <div class="col-12 text-end">
+                    <button class="btn main-bg py-3 px-4 text-white text-uppercase fw-bold">send message</button>
+                </div>
+            </div>
+            
+        </div>
+     </section>
+    <!-- End Contact Page -->
+
+    <footer class="py-4 main-bg text-white text-center">
+        <div class="container">
+            <p class="m-0">Copyright 2024 @ By Route All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!--START TEXT ANIMATION  -->
+
+    <p class="text-white text-center fw-bold fs-3"><span id="element"></span> </p>
+    <!-- Element to contain animated typing -->
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Designer', 'Developer','programmer'],
+        typeSpeed: 50,
+        backspeed: 50,
+        loop: true
+      });
+    </script>
+    <!-- END TEXT ANIMATION  -->
+    <script src="./javascript/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
